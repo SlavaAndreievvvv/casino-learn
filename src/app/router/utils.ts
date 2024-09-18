@@ -11,7 +11,7 @@ export const ROUTES = {
   },
 };
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/no-unused-vars
-export const generateUrl = (url: string, params?: any) => {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars, @typescript-eslint/no-explicit-any
+export const generateUrl = (url: string, _params?: any) => {
   return url;
 };
